@@ -1,0 +1,145 @@
+svg {
+    color: white;
+}
+.info {
+    background-color: #bc000b;
+    font-size: 14px;
+    color: white;
+    padding: 0px;
+}
+.head {
+    background-color: #e5101d;
+}
+.content {
+    background-color: #a5d8e4;
+     /* overflow: auto; */
+}
+ul {
+    border: 1px solid #28a745;
+    border-radius: 0 0 8px 8px;
+}
+li {
+    margin-top: 15px;
+}
+.shortcutsList div div a img{
+    width: 30px;
+    height: 30px;
+}
+.shortcutsList div{
+    width: 20%;
+}
+a:hover {
+    color: black;
+}
+.main-menu1{
+    display: block;
+}
+@media (max-width: 2000px) {
+    .info-mobile {
+        display: none;
+    }
+    .info-destop {
+        display:block;
+        height: 30px;
+        line-height:30px;
+    }
+    .main-menu {
+        position: relative;
+        z-index: 2;
+    }
+    .slider {
+        width: 100px;
+        position: relative;
+    }
+
+    ul {
+        background-color: #fff;
+    }
+    li {
+        line-height: 15px;
+        font-size: 14px;
+    }
+    .shortcutsList div div a img{
+        width: 50px;
+        height: 50px;
+    }
+    .shortcutsList div div a {
+        font-size: 15px;
+    }
+} 
+@media (max-width:1200px) {
+    .slider {
+        position: relative;
+        width: 100%;
+        overflow: auto;
+    }
+    .main-menu {
+        position: absolute;
+        z-index: 2;
+    }
+    ul{
+        display: none;
+    }
+
+}
+@media (max-width: 767px) {
+    input[type=text], button {
+        height: 45px;
+    }
+    button p {
+        font-size: 10px;
+    }
+    .info-mobile {
+        display: block;
+    }
+    .info-destop {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    li {
+        line-height:10px;
+        font-size: 10px;
+    }
+    ul{
+        display: none;
+    }
+}
+@media (max-width: 375px) {
+    .info-mobile img {
+        position: relative;
+        width: 100%
+    }
+    input[type=text], button {
+        height: 35px;
+    }
+    button{
+        width: 100px;
+        border-radius: 0 8px 8px 0;
+    }
+    button svg{
+        width: 15px;
+        height: 15px;
+    }
+    button p {
+        font-size: 7px;
+    }
+    .shop {
+        display: none;
+    }
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+    li {
+        line-height:5px;
+        font-size: 10px;
+    }
+    ul{
+        display: none;
+    }
+    a p {
+        font-size:7px;
+    }
+}

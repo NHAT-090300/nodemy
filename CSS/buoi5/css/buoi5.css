@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    text-align: center;
+}
+.container {
+    height: 800px;
+}
+.header {
+    width: 100%;
+    height: 30%;
+}
+.content {
+    height: 30%;
+}
+.left-pane {
+    width: 30%;
+    height: 95%;
+}
+.main-body {
+    height: 100%;
+}
+.right-pane {
+    width: 30%;
+    height: 95%;
+}
+.main-body {
+    width: 60%
+}
+.pre-body {
+    height: 30%;
+}
+.body {
+    height: 30%;
+}
+.post-body {
+    height: 30%;
+}
+.footer {
+    width: 100%;
+    height: 30%;
+}
