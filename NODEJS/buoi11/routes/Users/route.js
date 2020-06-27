@@ -1,0 +1,10 @@
+const express = require('express')
+const router = express.Router()
+const userController = require('../../app/user/auth/controller/controller')
+router.route('/')
+    .get(userController.profile)
+router.route('/login')
+    .get(userController.viewLogin)
+router.route('/register')
+    .get(userController.viewRegister)
+module.exports = router
